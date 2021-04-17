@@ -24,7 +24,7 @@ This is the official repository of [Semantically Adversarial Learnable Filters](
 
 3. Extract the tar file
    ```   
-   tar -zxvf FilterFool_code.tar.gz
+   tar -zxvf https://github.com/AliShahin/FilterFool.git
    ```
 
 4. Go to the working directory
