@@ -39,23 +39,33 @@ This is the official repository of [Semantically Adversarial Learnable Filters](
 
 
 
-## Generate adversarial images of Figure 2 of the manuscript (Dataset: ImageNet, Classifier: ResNet50)
+## Generate adversarial images 
  
-    1. In the script.sh set the desired filter among "Nonlinear_detail", "Gamma" or "Log" 
+ 1. In the script.sh set the desired filter among "Nonlinear_detail", "Gamma" or "Log" 
 
-    2. Generate the FilterFool adversarial image
-       ```
-       bash script.sh
-       ```
+ 2. Generate the FilterFool adversarial image
+    ```
+    bash script.sh
+    ```
 
-    3. The FilterFool adversarial image and log file are stored in the Results_{filter} (within the root directory) with the same name as their corresponding original images
+ 3. The FilterFool adversarial image and log file are stored in the Results_{filter} (within the root directory) with the same name as their corresponding original images
 
 
 
 ## Authors
+* [Ali Shahin Shamsabadi](mailto:a.shahinshamsabadi@qmul.ac.uk)
+* [Changjae Oh](mailto:c.oh@qmul.ac.uk)
+* [Andrea Cavallaro](mailto:a.cavallaro@qmul.ac.uk)
 
-Ali Shahin Shamsabadi
-Changjae Oh
-Andrea Cavallaro
 
+## References
+If you use our code, please cite the following paper:
 
+      @article{shamsabadi2021filterfool,
+        title = {Semantically Adversarial Learnable Filters},
+        author = {Shamsabadi, Ali Shahin and Oh, Changjae and Cavallaro, Andrea},
+        journal={arXiv preprint arXiv:2008.06069},
+        year = {2021}
+      }
+## License
+The content of this project itself is licensed under the [Creative Commons Non-Commercial (CC BY-NC)](https://creativecommons.org/licenses/by-nc/2.0/uk/legalcode).
