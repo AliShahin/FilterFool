@@ -11,31 +11,31 @@ This is the official repository of [Semantically Adversarial Learnable Filters](
 | macaw | Irish setter | crane | mower | Irish terrier | orang |
 
 ## Setup
-    1. Create [conda](https://docs.conda.io/en/latest/miniconda.html) virtual-environment
-       ```
-        module load python3/anaconda
-        conda create --name FilterFool python=3.6.8
-       ```
+1. Create [conda](https://docs.conda.io/en/latest/miniconda.html) virtual-environment
+   ```
+    module load python3/anaconda
+    conda create --name FilterFool python=3.6.8
+   ```
 
-    2. Activate conda environment
-       ```
-        conda activate FilterFool
-       ```
+2. Activate conda environment
+   ```
+    conda activate FilterFool
+   ```
 
-    3. Extract the tar file
-       ```   
-       tar -zxvf FilterFool_code.tar.gz
-       ```
+3. Extract the tar file
+   ```   
+   tar -zxvf FilterFool_code.tar.gz
+   ```
 
-    4. Go to the working directory
-       ```
-       cd FilterFool_code
-       ```
+4. Go to the working directory
+   ```
+   cd FilterFool_code
+   ```
 
-    5. Install requirements (please make sure your GPU is enabled)
-       ```
-        pip install -r requirements.txt
-       ```
+5. Install requirements (please make sure your GPU is enabled)
+   ```
+    pip install -r requirements.txt
+   ```
 
 
 
